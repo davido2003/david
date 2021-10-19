@@ -1,4 +1,3 @@
-#
 fetch('https://programmingnewsapi.herokuapp.com/?format=json').then((data)=> {
     return data.json();
 
