@@ -17,7 +17,7 @@ fetch('https://programmingnewsapi.herokuapp.com/?format=json').then((data)=> {
         </div>`
     
     });
-    document.getElementById("cards").innerHTML=data1;
+    document.getElementById("car").innerHTML=data1;
 }).catch((err)=>{
     console.log(err);
 })
